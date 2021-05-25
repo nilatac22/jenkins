@@ -8,8 +8,8 @@ pipeline {
                     sudo yum install -y httpd
                     sudo systemctl start httpd
                     sudo systemctl enable httpd
-                    mkdir site 
-                    cd site
+                    mkdir site1
+                    cd site1
                     git clone https://github.com/nilatac22/jenkins.git 
                     ls'''
                  }
