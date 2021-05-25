@@ -7,12 +7,12 @@ execution:
   scenario: Choose Flight
 scenarios:
   Choose Flight:
-     requests:
-     - label: blazedemo
-       method: GET
-     - label: reserve
-       method: POST
-       url: http://blazedemo.com/reserve.php
-       body:
-           fromPort: Parit
-           toPort: Buenos Aires
+    requests:
+    - label: blazedemo
+      method: GET
+    - label: reserve
+      method: POST
+      url: http://blazedemo.com/reserve.php
+      body:
+        fromPort: Parit
+        toPort: Buenos Aires
