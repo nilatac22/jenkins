@@ -10,10 +10,10 @@ scenarios:
     requests:
     - label: blazedemo
       method: GET
+      url: http://blazedemo.com/
     - label: reserve
       method: POST
       url: http://blazedemo.com/reserve.php
       body:
-        fromPort: Parit
+        fromPort: Paris
         toPort: Buenos Aires
-#test
