@@ -1,7 +1,7 @@
 pipeline {
          agent any
          stages {
-                stage('git repo') {
+                stage('gitrepo') {
                 steps {
                     sh '''#!/bin/bash
                     sudo yum update -y 
@@ -11,9 +11,7 @@ pipeline {
                     mkdir site 
                     cd site
                     git clone https://github.com/nilatac22/jenkins.git 
-                    ls
-                    cp index.html /var/www/html/
-                    sudo chmod 766 /var/www/html/index.html'''
+                    ls'''
                  }
                 }
                  stage('Test') {
