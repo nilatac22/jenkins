@@ -1,3 +1,3 @@
 #!/bin/bash/
 
-cal 2021
+cal 2022
