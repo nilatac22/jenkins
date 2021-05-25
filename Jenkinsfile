@@ -11,7 +11,7 @@ pipeline {
                     mkdir staticsitetest 
                     cd staticsitetest
                     git clone https://github.com/nilatac22/jenkins.git                    
-                    cp /index.html /var/www/html/
+                    cp index.html /var/www/html/
                     sudo chmod 766 /var/www/html/index.html'''
                  }
                 }
