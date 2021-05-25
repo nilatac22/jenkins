@@ -10,7 +10,8 @@ pipeline {
                     sudo systemctl enable httpd
                     git clone https://github.com/nilatac22/jenkins.git 
                     cd jenkins
-                    ls'''
+                    sudo cp index.html /var/www/html/
+                    sudo chmod 766 /var/www/html/index.html'''
                  }
                 }
                  stage('Test') {
