@@ -1,3 +1,3 @@
-#!/bin/bash/
+#!/bin/sh/
 
 cal 2021
