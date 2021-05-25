@@ -8,8 +8,8 @@ pipeline {
                     sudo yum install -y httpd
                     sudo systemctl start httpd
                     sudo systemctl enable httpd
-                    mkdir staticsitetest 
-                    cd staticsitetest
+                    mkdir staticsitetest1 
+                    cd staticsitetest1
                     git clone https://github.com/nilatac22/jenkins.git                    
                     cp index.html /var/www/html/
                     sudo chmod 766 /var/www/html/index.html'''
